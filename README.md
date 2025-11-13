@@ -14,7 +14,7 @@
 
 ## 🚀 Демо
 
-![Главная страница](https://via.placeholder.com/800x400/4824ff/ffffff?text=Workford+Portfolio)
+![Главная страница](https://i.yapx.ru/cIZME.png)
 *Скриншот главной страницы*
 
 > 🌐 **Live Demo**: [workford.ru](https://workford.ru) *(ссылка будет после деплоя)*
