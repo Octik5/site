@@ -3,7 +3,7 @@ import ModalWindow from './ModalWindow';
 import Carousel from "./Carousel";
 import Review from "./Review";
 
-const Main = () => { //объявляем главную переменую + (стрелочная функция)
+const Main = () => { //объявляем главную переменую + (Присваиваем стрелочная функция)
   const [showModal, setShowModal] = useState(false); //состояние для модального окна. on off. по умолчанию false
 
   const handleOpenModal = () => { //функции открытия модального окна
