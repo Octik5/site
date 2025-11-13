@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Review = (props) => { //компонент отзывов (props - значения передоваемые в компонент из main.js)
-    //html
+    //jsx
     return (
         <div className="review-card">
             <div className="review-content">

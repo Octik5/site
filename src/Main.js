@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef} from "react"; //память состояния, действия, доступ к элементам
+import React, {useState, useEffect, useRef} from "react"; //память состояния, действия (эффекты) (получение данных при первой загрузки компонента), доступ к элементам (ссылки). (хуки)
 import ModalWindow from './ModalWindow';
 import Carousel from "./Carousel";
 import Review from "./Review";
@@ -93,14 +93,14 @@ const Main = () => { //компонент главный (стрелочная �
     window.scrollTo({ top: height, left: 0, behavior: 'smooth' }); //функция прокрутки вверх для остальных кнопок
   }
 
-  //начало html
+  //начало jsx
   return (
     <div>
       {/* шапка */}
       <header>
         <div className="navigation">
           <div className="menu">
-            <a onClick={upButton}>Обо мне</a>
+            <a onClick={upButton}>Обо мне</a>  {/* обработка события */}
             <a onClick={(e)=>toBlock(e.target.getAttribute('height'))} height="700">Услуги</a>
             <a onClick={(e)=>toBlock(e.target.getAttribute('height'))} height="1230">Портфолио</a>
             <a onClick={(e)=>toBlock(e.target.getAttribute('height'))} height="1920">Отзывы</a>

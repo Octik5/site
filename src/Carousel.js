@@ -40,7 +40,7 @@ const Carousel = ({ direction }) => {
 
         return () => cancelAnimationFrame(requestIdRef.current); //проверка если да - то стоп анимация
     }, [direction, isHovered]); //то за чьим изменениями состояние следим
-    // html
+    // jsx
     return (
         <div
             className="carousel-container"

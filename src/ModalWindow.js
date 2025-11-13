@@ -5,7 +5,7 @@ const ModalWindow = ({ show, onClose, children }) => { //отображение 
     if (!show) {
         return null;
     }
-
+    //jsx
     return (
       <div className="modal-backdrop show" onClick={onClose}>
             <div className="modal-content" onClick={(e) => e.stopPropagation()}>
