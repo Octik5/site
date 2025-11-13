@@ -3,8 +3,7 @@ import ModalWindow from './ModalWindow';
 import Carousel from "./Carousel";
 import Review from "./Review";
 
-//разный способ записи
-const Main = () => { //компонент главный (стрелочная функция)
+const Main = () => { //объявляем главную переменую + (стрелочная функция)
   const [showModal, setShowModal] = useState(false); //состояние для модального окна. on off. по умолчанию false
 
   const handleOpenModal = () => { //функции открытия модального окна
