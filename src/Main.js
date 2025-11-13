@@ -96,7 +96,7 @@ const Main = () => { //объявляем главную переменую + (�
   return (
     <div>
       {/* шапка */}
-      <header>
+      <header> {/* <- компонент */}
         <div className="navigation">
           <div className="menu">
             <a onClick={upButton}>Обо мне</a>  {/* обработка события */}
